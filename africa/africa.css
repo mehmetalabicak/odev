@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400;1,800&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+ul li{
+    list-style: none;
+
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.heeder{
+    width: 100%;
+    height: 100vh;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.navbar .logo img{
+width: 90px;
+
+}
+
+nav ul li{
+display: inline-block;
+margin-right: 25px;
+
+
+}
+
+nav ul a{
+    color: chocolate;
+    font-size: larger;
+
+}
+
+nav{
+    margin-right: 35%;
+
+}
+
+
+
+.icon i{
+    font-size: 25px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.col2{
+    flex-basis: 50%;
+
+}
+.container .box{
+    width: 500px;
+    height: 500px;
+    margin-top: -50px;
+    position: relative;
+
+}
+
+.container .box img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    mix-blend-mode: screen;
+}
+
+.container .box video{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+}
+    
+.col-2 hı{
+    font-size: 3rem;
+    color: rgb(206, 97, 24);
+}
+
+.col-2 span{
+    font-size: 6rem;
+    margin-left: 80px;
+
+}
+
+.col-2 p{
+    margin: 15px 0;
+    font-weight: 400;
+
+}
+.btn{
+    display: inline-block;
+    color: white;
+    background-color: rgb(112, 58, 19);
+    padding: 8px 30px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 50%;
+}
